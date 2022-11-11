@@ -3,7 +3,7 @@ import java.util.*;
 public class Mobile{                                                                                                                                                                 
 public static void main(String args[]){                                                                                                                                              
  //Create a List                                                                                                                                                                     
- LinkedList<String> list=new LinkedList <String>();                                                                                                                                  
+ List<String> list=new ArrayList <String>();                                                                                                                                         
  //Add elements in the List                                                                                                                                                          
                                                                                                                                                                                      
                                                                                                                                                                                      
@@ -13,8 +13,8 @@ public static void main(String args[]){
                                                                                                                                                                                      
                                                                                                                                                                                      
  //iterating for loop to print the element in the list                                                                                                                               
-        boolean res = list.stream().anyMatch((a) -> a.startsWith("Mobile"));                                                                                                         
-             System.out.println("Do any string begins with letter Mobile = "+res);                                                                                                   
+        boolean result = list.stream().anyMatch((a) -> a.startsWith("Mobile"));    t                                                                                                     
+             System.out.println("Do any string begins with letter Mobile = "+resul);                                                                                                   
                                                                                                                                                                                      
                                                                                                                                                                                      
                                                                                                                                                                                      
