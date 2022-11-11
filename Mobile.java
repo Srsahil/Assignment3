@@ -13,8 +13,8 @@ public static void main(String args[]){
                                                                                                                                                                                      
                                                                                                                                                                                      
  //iterating for loop to print the element in the list                                                                                                                               
-        boolean result = list.stream().anyMatch((a) -> a.startsWith("Mobile"));    t                                                                                                     
-             System.out.println("Do any string begins with letter Mobile = "+resul);                                                                                                   
+        boolean result = list.stream().anyMatch((a) -> a.startsWith("Mobile"));                                                                                                         
+             System.out.println("Do any string begins with letter Mobile = "+result);                                                                                                   
                                                                                                                                                                                      
                                                                                                                                                                                      
                                                                                                                                                                                      
